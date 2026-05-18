@@ -1,0 +1,14 @@
+name: EFQuiz
+main: com.eternalfeather.efquiz.Main
+version: 1.0
+author: EternalFeather
+
+commands:
+  efquiz:
+    description: EF答题插件主命令
+    usage: /efquiz <top|reload>
+
+permissions:
+  efquiz.admin:
+    description: 允许重新加载 EF答题 配置
+    default: op

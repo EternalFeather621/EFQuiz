@@ -1,0 +1,49 @@
+settings:
+  # 广播题目的间隔时间，单位：秒
+  # 注意：插件代码中设置了最低间隔为 10 秒
+  # 如果这里填写小于 10 的数字，例如 5，插件仍然会自动按 10 秒处理
+  # 例如 300 秒 = 5 分钟
+  interval-seconds: 300
+
+  # 玩家答对后给予的游戏币数量
+  reward-money: 10
+
+  # 奖励命令
+  # %player% 会被替换成玩家名
+  # %money% 会被替换成上面的 reward-money
+  #
+  # 如果你用 Essentials 经济，一般可以用：
+  # eco give %player% %money%
+  #
+  # 如果你用其他经济插件，可以改成对应插件的给钱命令
+  reward-command: "eco give %player% %money%"
+
+  # 插件广播前缀，支持 & 颜色代码
+  prefix: "&6[EF答题]&r "
+
+  # 是否区分大小写
+  # false = 不区分大小写
+  # true = 区分大小写
+  case-sensitive: false
+
+questions:
+  - question: "Minecraft 中钻石矿石一般需要什么镐才能挖？"
+    answers:
+      - "铁镐"
+      - "钻石镐"
+
+  - question: "苦力怕爆炸前通常会发出什么声音？"
+    answers:
+      - "嘶嘶声"
+      - "ssss"
+      - "嘶嘶"
+
+  - question: "末影珍珠的英文名是什么？"
+    answers:
+      - "ender pearl"
+      - "Ender Pearl"
+
+  - question: "Minecraft 中用来睡觉的方块是什么？"
+    answers:
+      - "床"
+      - "bed"
