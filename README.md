@@ -1,6 +1,6 @@
 # EFQuiz
 
-EFQuiz 是一个适用于 Minecraft Paper 1.8.8 的全服答题插件。
+EFQuiz 是一个理论适用于全版本Minecraft bukkit及其分支的全服答题插件。
 
 玩家可以在聊天框中直接回答系统随机广播的题目，答对后获得奖励，并记录答题次数进入全服排行榜。
 
